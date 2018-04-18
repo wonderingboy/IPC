@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hc/ipc/p1/main.cpp
+sys/ipc.h
+-
+sys/shm.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+iostream
+-
+
